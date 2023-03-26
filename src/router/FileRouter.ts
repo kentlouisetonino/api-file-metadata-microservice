@@ -1,6 +1,6 @@
 import express from 'express'
 import multer from 'multer'
-import { GetFileData } from '../controller/FileController.js'
+import { GetFileData } from '../controller/FileController'
 
 const router = express.Router()
 const upload = multer({ dest: 'uploads/' })
