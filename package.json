@@ -1,8 +1,8 @@
 {
-  "name": "api-file-metadata-microservice",
+  "name": "backend-nodejs-file-metadata",
   "version": "1.0.0",
   "main": "src/server.ts",
-  "repository": "git@github.com:kentlouisetonino/api-file-metadata-microservice.git",
+  "repository": "https://github.com/kentlouisetonino/backend-nodejs-file-metadata",
   "author": "Kent Louise Tonino",
   "license": "MIT",
   "scripts": {

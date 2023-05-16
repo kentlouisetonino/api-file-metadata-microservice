@@ -1,7 +1,9 @@
 ## Description
 
-> A server-side application that allows you to store the metadata of a file.
+> A backend application that allows storing the metadata of a file using NodeJS.
 
+<br />
+<br />
 <br />
 
 ## Setup
@@ -28,6 +30,8 @@ URL: http://localhost:15000/api/fileanalyse
 Body (Form Data): { upfile: File }
 ```
 
+<br />
+<br />
 <br />
 
 ## Testing
