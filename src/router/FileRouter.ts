@@ -1,10 +1,10 @@
-import express from 'express'
-import multer from 'multer'
-import { GetFileData } from '../controller/FileController'
+import express from 'express';
+import multer from 'multer';
+import { GetFileData } from '../controller/FileController';
 
-const router = express.Router()
-const upload = multer({ dest: 'uploads/' })
+const router = express.Router();
+const upload = multer({ dest: 'uploads/' });
 
-router.post('/fileanalyse', upload.single('upfile'), GetFileData)
+router.post('/fileanalyse', upload.single('upfile'), GetFileData);
 
-export default router
+export default router;
