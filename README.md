@@ -1,6 +1,6 @@
 ## Description
 
-> - A backend application that examines the file metata using NodeJS. The main technology stack used
+> - A backend application that examines the file metadata using NodeJS. The main technology stack used
   in this project are REST APIs, TypeScript, ExpressJS, and NodeJS.
 
 <br />
