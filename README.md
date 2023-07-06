@@ -22,6 +22,8 @@
 PORT=
 ```
 
+<br />
+
 > - Run the following commands.
 
 ```bash
@@ -29,14 +31,16 @@ npm run build
 npm run dev
 ```
 
-> - REST API endpoint.
+<br />
+<br />
+<br />
+
+
+## REST API Endpoints
+> - Analyse a file.
 ```bash
 # Upload a File
 HTTP METHOD: POST
 URL: http://localhost:15000/api/fileanalyse
 Body (Form Data): { upfile: File }
 ```
-
-<br />
-<br />
-<br />
