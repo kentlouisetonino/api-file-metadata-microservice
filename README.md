@@ -27,8 +27,9 @@ PORT=
 > - Run the following commands.
 
 ```bash
-npm run build
-npm run dev
+yarn install
+yarn build
+yarn dev
 ```
 
 <br />

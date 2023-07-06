@@ -1,25 +1,9 @@
-require('dotenv').config()
-import cors from 'cors'
-import express, { json, urlencoded } from 'express'
-import morgan from 'morgan'
-import FileRouter from './router/FileRouter'
-import HomeRouter from './router/HomeRouter'
+require('dotenv').config();
+import app from './app';
 
-const PORT = process.env.PORT
-const app = express()
+const PORT = process.env.PORT;
 
-// * listen for requests
+// * Server listener.
 app.listen(PORT, function () {
-  console.log('Server is live at http://localhost:' + PORT)
-})
-
-// * middlewares
-app.use(morgan('tiny'))
-app.use(urlencoded({ extended: true }))
-app.use(json())
-app.use(cors({ optionsSuccessStatus: 200 }))
-app.use(express.static('public'))
-
-// * endpoints
-app.use('/', HomeRouter)
-app.use('/api', FileRouter)
+  console.log('Server is live at http://localhost:' + PORT);
+});
