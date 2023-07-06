@@ -1,6 +1,13 @@
 ## Description
 
-> A backend application that allows storing the metadata of a file using NodeJS.
+> A backend application that examines the file metata using NodeJS. The main technology stack used
+  in this project are REST APIs, TypeScript, ExpressJS, and NodeJS.
+
+<br />
+
+[Screencast from Sunday, 26 March, 2023 07:21:37 PM PST.webm](https://user-images.githubusercontent.com/69438999/227772355-9ef73e7e-abef-4961-b08b-c0e2b9d30d1b.webm)
+
+
 
 <br />
 <br />
@@ -33,6 +40,3 @@ Body (Form Data): { upfile: File }
 <br />
 <br />
 <br />
-
-## Testing
-[Screencast from Sunday, 26 March, 2023 07:21:37 PM PST.webm](https://user-images.githubusercontent.com/69438999/227772355-9ef73e7e-abef-4961-b08b-c0e2b9d30d1b.webm)
