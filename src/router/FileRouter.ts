@@ -5,6 +5,6 @@ import { GetFileData } from '../controller/FileController';
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage() });
 
-router.post('/analyse', upload.single('file'), GetFileData);
+router.post('/analyse-file', upload.single('file'), GetFileData);
 
 export default router;

@@ -43,6 +43,6 @@ yarn dev
 ```bash
 # Upload a File
 HTTP METHOD: POST
-URL: http://localhost:15000/api/analyse
+URL: http://localhost:15000/api/analyse-file
 Body (Form Data): { upfile: File }
 ```
