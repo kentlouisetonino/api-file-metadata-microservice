@@ -1,7 +1,8 @@
 ## Description
 
-> - A backend application that examines the file metadata using NodeJS. The main technology stack used
-  in this project are REST APIs, TypeScript, ExpressJS, and NodeJS.
+> - A backend application that examines the file metadata using NodeJS. The main
+    technology stack used in this project are REST APIs, TypeScript, ExpressJS,
+    and NodeJS.
 
 <br />
 
@@ -42,6 +43,6 @@ yarn dev
 ```bash
 # Upload a File
 HTTP METHOD: POST
-URL: http://localhost:15000/api/fileanalyse
+URL: http://localhost:15000/api/analyse
 Body (Form Data): { upfile: File }
 ```
