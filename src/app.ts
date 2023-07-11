@@ -2,8 +2,8 @@ require('dotenv').config();
 import cors from 'cors';
 import express, { json, urlencoded } from 'express';
 import morgan from 'morgan';
-import FileRouter from './router/FileRouter';
-import HomeRouter from './router/HomeRouter';
+import DefaultRoute from './routes/DefaultRoute';
+import FileRoute from './routes/FileRoute';
 
 // * Express app instance.
 const app = express();
@@ -16,8 +16,8 @@ app.use(cors({ optionsSuccessStatus: 200 }));
 app.use(express.static('public'));
 
 // * App endpoints.
-app.use('/', HomeRouter);
-app.use('/api', FileRouter);
+app.use('/', FileRoute);
+app.use('/api', DefaultRoute);
 
 // * Separate app and server.
 export default app;
