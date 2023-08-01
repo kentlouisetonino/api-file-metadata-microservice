@@ -14,7 +14,7 @@
 <br />
 <br />
 
-## Setup
+## Local Development
 
 > - Create a new `.env` file and put the corresponding `key-value` pairs.
 
@@ -34,14 +34,10 @@ yarn dev
 ```
 
 <br />
-<br />
-<br />
 
-
-## REST API Endpoints
-> - Analyse a file.
+> - REST API endpoint.
 ```bash
-# Upload a File
+# Upload and analyze a file.
 HTTP METHOD: POST
 URL: http://localhost:15000/api/analyse-file
 Body (Form Data): { upfile: File }
